@@ -14,7 +14,7 @@
     <hr>
     <label id="number-label">.<!--disregard this dot, FCC required--></label>
     <input type="number" name="age" id="number" class="input-field" min="1" max="125" placeholder="Age">
-    <hr>
+    <hr id="age-role-line">
     <div id="dropdown-label">
     <label id="dropdown-label" for="dropdown">What's your current role?</label>
     </div>
@@ -28,15 +28,14 @@
       <option id="options" value="other">Other</option>
     </select>
     </div>
-    <hr>
     <div id="user-rating-label">
-    <label id="user-rating-label" for="userRating">Would you recommend us to a friend?</label>     
+    <label id="user-rating-label" for="userRating">Would you recommend us to friends?</label>     
     </div>
     <div id="rightTab">
-      <ul style="list-style: none;">
-        <li class="radio"><label>Definitely<input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
-        <li class="radio"><label>Maybe<input name="radio-buttons" value="2" type="radio" class="userRatings" ></label></li>
-        <li class="radio"><label>Not sure<input name="radio-buttons" value="3" type="radio" class="userRatings" ></label></li>
+      <ul>
+        <li class="radio"><label id="radio-pointer">Definitely<input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
+        <li class="radio"><label id="radio-pointer">Maybe<input name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
+        <li class="radio"><label id="radio-pointer">Not sure<input name="radio-buttons" value="3" type="radio" class="userRatings"></label></li>
       </ul>
     </div>
     <br>
