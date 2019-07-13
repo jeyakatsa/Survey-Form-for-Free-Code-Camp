@@ -192,7 +192,7 @@ hr {
 
 @media screen and (max-width: 700px) {
   #dropdown {
-    width: 130px;
+  width: 130px;
   }
 }
 
@@ -209,27 +209,27 @@ hr {
   }
 }
 
-#rightTab {
+#Tabs {
   display: inline-block;
   text-align: left;
   width: 100%;
-  vertical-align: middle;
-  margin: -8px 36%;
+  margin: -8px 26%;
 }
 
 @media screen and (max-width: 700px) {
-  #rightTab {
-    margin: -8px 25%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #rightTab {
+  #Tabs {
     margin: -8px 10%;
   }
 }
 
-.userRatings,
+@media screen and (max-width: 400px) {
+  #Tabs {
+    margin: -8px -25%;
+  }
+}
+
+
+.checkbox-list,
 input[type="checkbox"] {
   float: left;
   margin-top: 1.7px;
@@ -247,19 +247,19 @@ input[type="checkbox"] {
   outline: none;
 }
 
-.userRatings:hover {
+.checkbox-list:hover {
  background-color: white;
  border: transparent;
 }
 
-.userRatings:checked {
+.checkbox-list:checked {
   background-color: white;
   border: 2px solid;
   border-color: black;
   opacity: .8;
 }
 
-.radio, .checkbox {
+.box, .checkbox {
   display: block;
   padding-bottom: 3px;
   opacity: .6;
@@ -267,8 +267,21 @@ input[type="checkbox"] {
   font-size: 9pt;
 }
 
-#radio-pointer {
+#box-pointer {
   cursor: pointer;
+}
+
+#preferences-label {
+  opacity: .6;
+  font-size: 9pt;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  #preferences-label {
+    font-size: 8pt;
+  }
 }
 
 #submit {
