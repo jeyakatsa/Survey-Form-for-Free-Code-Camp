@@ -66,9 +66,8 @@ h2 {
   margin-top: 50px;
   padding: 60px;
   width: 65%;
-  margin-bottom: 6%;
   max-width: 605px;
-  min-height: 780px;
+  min-height: 765px;
   background: -webkit-linear-gradient(45deg, #910000, #000794, #009414, #889400, #6d0094);
   -webkit-text-fill-color: transparent;
   filter: blur(12px);
@@ -78,7 +77,8 @@ h2 {
   position: relative;
   margin: auto;
   border-radius: 30px;
-  margin-top: -995px;
+  margin-top: -895px;
+  margin-bottom: 6%;
   padding: 60px;
   padding-bottom: 80px;
   max-width: 600px;
@@ -94,7 +94,8 @@ h2 {
 
 @media screen and (max-width: 700px) {
   #form {
-   margin-top: -915px;
+   margin-top: -890px;
+   padding-bottom: 65px; 
   }
 }
 
