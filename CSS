@@ -153,6 +153,7 @@ h2 {
 
 #number {
   margin-top: 20px;
+  margin-left: -5px;
 }
 
 #number::-webkit-inner-spin-button, 
