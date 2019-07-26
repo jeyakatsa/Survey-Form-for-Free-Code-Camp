@@ -156,6 +156,7 @@ h2 {
 #number {
   margin-top: 20px;
   margin-left: -5px;
+  -moz-appearance: textfield;
 }
 
 #number::-webkit-inner-spin-button, 
