@@ -1,6 +1,6 @@
 html,
 body {
-   text-align: center;
+  text-align: center;
   font-family: arial;
   min-width: 320px;
 }
@@ -37,7 +37,7 @@ body {
 @media screen and (max-width: 700px) {
   #title {
     font-size: 24pt;
-    margin-top: -41px;
+    margin-top: -39.8px;
   }
 }
 
@@ -75,14 +75,14 @@ h2 {
 
 #form {
   position: relative;
-  margin: auto;
+  margin: 0 auto;
   border-radius: 30px;
   margin-top: -855px;
   margin-bottom: 6%;
   padding: 60px;
   padding-bottom: 80px;
-  max-width: 600px;
-  width: 65%;
+  width: 600px;
+  max-width: 65%;
   background-color: white;
 }
 
@@ -102,7 +102,7 @@ h2 {
 #description {
   color: gray;
   opacity: .6;
-  font-size: 9pt;
+  font-size: 7pt;
   margin-top: -10px;
   font-weight: 600;
 }
@@ -194,6 +194,7 @@ hr {
 #dropdown {
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   cursor: pointer;
   opacity: .5;
   font-size: 9pt;
@@ -230,12 +231,13 @@ hr {
 #Tabs {
   display: inline-block;
   text-align: left;
-  width: 100%;
+  width: 60%;
   margin: -8px 26%;
 }
 
 @media screen and (max-width: 700px) {
   #Tabs {
+    width: 100%;
     margin: -8px 10%;
   }
 }
